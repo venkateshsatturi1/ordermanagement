@@ -52,7 +52,7 @@ public class producerTests {
 
 	  @PactVerifyProvider("Item Order")
 	  public String verifyMessageForOrder() {
-	    return "{\"orderId\":43546,\"shipperid\":123,\"paymentId\":12345,\"itemNumber\":\"FRE\",\"qty\":10,\"locationId\":2700,\"channel\":\"B2B\"}";
+	    return "{\"orderId\":43546,\"shipperid\":123,\"paymentid\":12345,\"itemNumber\":\"FRE\",\"qty\":10,\"locationId\":2700,\"channel\":\"B2B\"}";
 	  }
 
 }
